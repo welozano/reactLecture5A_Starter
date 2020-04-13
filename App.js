@@ -7,12 +7,12 @@ const db = new PouchDB('mydb', {adapter: 'asyncstorage'})
 export default class App extends React.Component {
   state = {
     contacts: [{
-      name: "Abdallah AbuHashem",
-      phoneNumber: "6504600122",
+      name: "Wilson Lozano",
+      phoneNumber: "7871234567",
     },
     {
-      name: "Abdallah AbuHashem",
-      phoneNumber: "6504600122",
+      name: "Tony Stark",
+      phoneNumber: "98000911",
     }],
     modalVisible: false,
     name: "",
